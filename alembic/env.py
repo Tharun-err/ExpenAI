@@ -8,6 +8,7 @@ from backend.app.database import Base, engine
 from backend.app.models.transaction import Transaction
 from backend.app.models.category import Category
 from backend.app.models.account import Account
+from backend.app.models.budget import Budget
 
 
 config = context.config
